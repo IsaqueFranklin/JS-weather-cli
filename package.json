@@ -1,0 +1,22 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "preferedGlobal": true,
+  "bin": {
+    "clima": "./bin/clima"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "author": "Isaque Franklin",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
